@@ -51,7 +51,7 @@ describe UsersController do
       get :new
       response.should have_selector("input[name='user[name]'][type='text']")
     end
-
+###WTF WHY DO THESE THREE TESTS FAIL?
     it "should have an email field" do 
       get :new
       response.should have_selector("input[email='user[email]'][type='text']")
