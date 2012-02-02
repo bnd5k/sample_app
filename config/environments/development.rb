@@ -27,4 +27,7 @@ SampleApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # HTTPS settings from http://www.simonecarletti.com/blog/2011/05/configuring-rails-3-https-ssl/
+ # config.force_ssl = true
 end
